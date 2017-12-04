@@ -97,11 +97,11 @@ $task= isset($_REQUEST['task']) ? $_REQUEST['task'] : "";
 if (acl_check('admin', 'super'    )) {
 if ($show_all=='yes') {
     $showall = "yes";
-    $lnkvar="'messages.php?show_all=no&$activity_string_html' name='Just Mine' onclick=\"top.restoreSession()\"> (".htmlspecialchars( xl('Just Mine'), ENT_NOQUOTES).")";
+    $lnkvar="'messages.php?show_all=no&$activity_string_html' name='Just Mine' onclick=\"top.restoreSession()\" (".htmlspecialchars( xl('Just Mine'), ENT_NOQUOTES).")";
 }
 else {
     $showall = "no";
-    $lnkvar="'messages.php?show_all=yes&$activity_string_html' name='See All' onclick=\"top.restoreSession()\"> (".htmlspecialchars( xl('See All'), ENT_NOQUOTES).")";
+    $lnkvar="'messages.php?show_all=yes&$activity_string_html' name='See All' onclick=\"top.restoreSession()\" (".htmlspecialchars( xl('See All'), ENT_NOQUOTES).")";
 }
 }
 ?>
