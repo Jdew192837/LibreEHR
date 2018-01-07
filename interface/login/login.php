@@ -35,7 +35,6 @@ include_once("$srcdir/sql.inc");
 ?>
 <html>
 <head>
-    <?php html_header_show(); ?>
     <link rel=stylesheet href="<?php echo $css_header; ?>" type="text/css">
     <link rel=stylesheet href="../themes/login.css" type="text/css">
 

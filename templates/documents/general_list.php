@@ -1,7 +1,5 @@
 <html>
 <head>
-<?php html_header_show(); ?>
-
 <link rel="stylesheet" href="<?php echo $GLOBALS['css_header']; ?>" type="text/css">
 
 <script type="text/javascript" src="library/js/DocumentTreeMenu.js"></script>

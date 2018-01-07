@@ -349,8 +349,6 @@ else {
 ?>
 <html>
     <head>
-
-<?php html_header_show(); ?>
         <link rel="stylesheet" href="<?php echo $css_header; ?>" type="text/css">
         <script type="text/javascript" src="../../../library/dialog.js"></script>
         <script type="text/javascript" src="../../../library/textformat.js"></script>

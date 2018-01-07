@@ -307,7 +307,6 @@ $DateLocale = getLocaleCodeForDisplayLanguage($GLOBALS['language_default']);
 ?>
 <html>
 <head>
-<?php html_header_show(); ?>
 <title><?php echo xlt('Find Available Appointments'); ?></title>
 <link rel="stylesheet" href='<?php echo $css_header ?>' type='text/css'>
 

@@ -57,8 +57,6 @@ $obj = $formid ? formFetch("form_misc_billing_options", $formid) : array();
 ?>
 <html>
 <head>
-<?php html_header_show(); ?>
-
 <link rel="stylesheet" href="<?php echo $css_header;?>" type="text/css">
 <link rel="stylesheet" href="<?php echo $GLOBALS['webroot'] ?>/library/css/jquery.datetimepicker.css">
 <link href="<?php echo $GLOBALS['standard_js_path']; ?>/bootstrap-3-3-4/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
